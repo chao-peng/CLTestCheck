@@ -34,7 +34,7 @@ ninja
 To run clmt on your kernel source code:
 
 ```bash
-~/clang-llvm/llvm/build/bin/clmt yourkernelfile.cl -o
+~/clang-llvm/llvm/build/bin/clmt yourkernelfile.cl
 ```
 
 After running this command, generated mutations are created under the current directory. The program will generate mutations for all applicable operators.
